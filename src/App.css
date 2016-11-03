@@ -107,6 +107,23 @@ header h2 {
 	text-align: center;
 }
 
+.column {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
 .pageContent h3 {
 	font-size: 24px;
+}
+
+.pageContent img {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.pageContent a {
+	display: block;
 }

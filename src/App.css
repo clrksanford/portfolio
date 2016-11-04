@@ -153,22 +153,48 @@ header h2 {
 /*----ABOUT PAGE STYLES----*/
 /*-------------------------*/
 
-#aboutParagraph {
+#aboutContainer {
 	padding: 0 40px;
 }
 
 #headshot {
-	width: 100px;
+	width: 160px;
 	height: auto;
-	border-radius: 50px;
+	border-radius: 80px;
 	display: inline-block;
 }
 
-#aboutParagraph p {
+#aboutParagraph {
 	display: inline-block;
-	width: 75%;
+	width: 60%;
 	padding: 0 30px;
 	box-sizing: border-box;
+	text-align: right;
+}
+
+#aboutParagraph p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#p1 {
+	text-align: left;
+}
+
+#p2 {
+	text-align: center;
+}
+
+#p3 {
+	text-align: right;
+}
+
+#p4 {
+	text-align: center;
+}
+
+#p5 {
+	text-align: left;
 }
 
 .flexContainer {
@@ -184,6 +210,10 @@ header h2 {
 .tile img {
 	width: 90%;
 }
+
+/*-------------------------*/
+/*---RESUME PAGE STYLES----*/
+/*-------------------------*/
 
 img#resume {
 	margin-bottom: 3%;

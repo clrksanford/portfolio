@@ -14,13 +14,29 @@ class About extends Component {
         <div className='pageHeader'>
           <h3>About Me</h3>
         </div>
-        <div className='row clearfix' id='aboutParagraph'>
+        <div className='row clearfix' id='aboutContainer'>
           <img src={headshot} alt='headshot' id='headshot'/>
-          <p>
-          I am a highly independent critical-thinker with a passion for the arts and learning. As someone both process-oriented and creative, I enjoy the challenge presented by web development of using very linear, analytical programming languages to make unique, aesthetically-pleasing user experiences. As a literature major, I am an excellent communicator and think creatively to come up with innovative solutions.
-          </p>
+          <div id='aboutParagraph'>
+            <p id='p1'>
+            Literature major, world traveler
+            </p>
+            <p id='p2'>
+            Highly independent critical thinker
+            </p>
+            <p id='p3'>
+            Process-oriented and creative
+            </p>
+            <p id='p4'>
+            Excellent communicator
+            </p>
+            <p id='p5'>
+            Innovative problem solver
+            </p>
+          </div>
         </div>
-        <h3>Interests</h3>
+        <div className='pageHeader'>
+          <h3>Interests</h3>
+        </div>
         <div className='flexContainer'>
           <div className='tile'>
             <h5>Social Dance</h5>

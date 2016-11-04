@@ -5,8 +5,13 @@ class Resume extends Component {
   render() {
     return(
       <div className='pageContent'>
-        <h3>Resume</h3>
-        <a href={resumePic} download>Download</a>
+        <div className='pageHeader'>
+          <h3>Resume</h3>
+        </div>
+        <div className='pageMain'>
+          <img src={resumePic} alt='Resume' id='resume'/>
+          <a href={resumePic} id='resumeLink' download>Download</a>
+        </div>
       </div>
     );
   }

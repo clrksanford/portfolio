@@ -99,8 +99,8 @@ nav .link, nav a {
   text-decoration: none;
 }
 
-nav .link:hover, nav a:hover {
-  color: rgb(50,120,106);
+.link:hover, a:hover {
+  color: rgb(68, 162, 143);
   text-decoration: none;
 }
 
@@ -149,6 +149,10 @@ header h2 {
 	display: block;
 }
 
+/*-------------------------*/
+/*----ABOUT PAGE STYLES----*/
+/*-------------------------*/
+
 #aboutParagraph {
 	padding: 0 40px;
 }
@@ -179,4 +183,24 @@ header h2 {
 
 .tile img {
 	width: 90%;
+}
+
+img#resume {
+	margin-bottom: 3%;
+	border: 5px solid rgb(15, 62, 112);
+}
+
+#resumeLink {
+	color: white;
+	background-color: black;
+	width: 10%;
+	margin: 0 auto;
+	padding: 8px 12px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#resumeLink:hover {
+	background-color: rgb(80, 67, 86);
+	text-decoration: none;
 }

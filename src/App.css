@@ -324,11 +324,11 @@ img#resume {
 
 #resumeLink {
 	color: white;
-	background-color: black;
+	background-color: rgb(80,67,86); /* purple */
 }
 
 #resumeLink:hover {
-	background-color: rgb(80, 67, 86); /* purple */
+	background-color: rgb(68, 162, 143);
 	text-decoration: none;
 }
 

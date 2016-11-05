@@ -245,6 +245,10 @@ a.projectLink:hover {
 	color: white;
 }
 
+a.projectLink.designLink {
+	width: 40%;
+}
+
 /*-------------------------*/
 /*----ABOUT PAGE STYLES----*/
 /*-------------------------*/

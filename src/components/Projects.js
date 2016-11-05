@@ -111,8 +111,8 @@ class Projects extends Component {
                 <div className={`projectTileInner ${this.state.class}`}>
                   <h5>Austin Referral Page</h5>
                   <p>Resources and assets provided by General Assembly Austin.</p>
-                  <a href='https://github.com/clrksanford/austin-referral'
-                    className='button projectLink'
+                  <a href='https://github.com/clrksanford/ga-austin-referral-page'
+                    className='button projectLink designLink'
                     target='_blank'>
                     See the code
                   </a>
@@ -127,8 +127,8 @@ class Projects extends Component {
                 <div className={`projectTileInner ${this.state.class}`}>
                   <h5>Relaxr</h5>
                   <p>Resources and assets provided by General Assembly Austin.</p>
-                  <a href='https://github.com/clrksanford/relaxr'
-                    className='button projectLink'
+                  <a href='https://github.com/clrksanford/ga-relaxr'
+                    className='button projectLink designLink'
                     target='_blank'>
                     See the code
                   </a>

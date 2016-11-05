@@ -104,12 +104,38 @@ class Projects extends Component {
           </div>
           <div className='row'>
             <div className='column'>
-              <img src={austinReferral} className='designCompPic' alt='Austin Referral Page design comp'/>
-            </div>
+              <div className='projectTile'
+                id='austinReferral'
+                onMouseOver={this._handleMouseOver}
+                onMouseOut={this._handeMouseOut}>
+                <div className={`projectTileInner ${this.state.class}`}>
+                  <h5>Austin Referral Page</h5>
+                  <p>Resources and assets provided by General Assembly Austin.</p>
+                  <a href='https://github.com/clrksanford/austin-referral'
+                    className='button projectLink'
+                    target='_blank'>
+                    See the code
+                  </a>
+                </div> {/* --close projectTileInner-- */}
+              </div> {/* --close projectTile-- */}
+            </div> {/* --close column-- */}
             <div className='column'>
-              <img src={relaxr} className='designCompPic' alt='Relxar design comp'/>
-            </div>
-          </div>
+              <div className='projectTile'
+                id='relaxr'
+                onMouseOver={this._handleMouseOver}
+                onMouseOut={this._handeMouseOut}>
+                <div className={`projectTileInner ${this.state.class}`}>
+                  <h5>Relaxr</h5>
+                  <p>Resources and assets provided by General Assembly Austin.</p>
+                  <a href='https://github.com/clrksanford/relaxr'
+                    className='button projectLink'
+                    target='_blank'>
+                    See the code
+                  </a>
+                </div> {/* --close projectTileInner-- */}
+              </div> {/* --close projectTile-- */}
+            </div> {/* --close column-- */}
+          </div> {/* --close row-- */}
           <div className='row'>
             <div className='column'>
             </div>

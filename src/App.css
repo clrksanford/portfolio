@@ -191,6 +191,14 @@ h1 {
 	background-image: url('../public/images/dance-finder.jpg');
 }
 
+#austinReferral {
+	background-image: url('../public/images/austin-referral-2.jpg');
+}
+
+#relaxr {
+	background-image: url('../public/images/relaxr.jpg');
+}
+
 .projectTileInner {
 	width: 100%;
 	height: 100%;

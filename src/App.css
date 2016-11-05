@@ -138,7 +138,7 @@ header h2 {
 
 .column {
 	display: inline-block;
-	width: 50%;
+	width: 48%;
 	text-align: center;
 }
 
@@ -200,6 +200,11 @@ header h2 {
 	font-weight: bold;
 }
 
+.designCompPic {
+	width: 90%;
+	max-height: 400px;
+}
+
 a.projectLink {
 	background-color: rgb(80, 67, 86);
 	color: white;
@@ -208,7 +213,7 @@ a.projectLink {
 	margin: 0 10px;
 }
 
-.projectLink:hover {
+a.projectLink:hover {
 	background-color: rgb(68, 162, 143);
 	color: white;
 }

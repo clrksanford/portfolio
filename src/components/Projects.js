@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import danceFinder from '../../public/images/dance-finder.jpg';
 import dateNight from '../../public/images/date-night.jpg';
-import austinReferral from '../../public/images/austin-referral.jpg';
+import austinReferral from '../../public/images/austin-referral-2.jpg';
 import relaxr from '../../public/images/relaxr.jpg';
 
 class Projects extends Component {
@@ -92,7 +92,7 @@ class Projects extends Component {
                   See the site
                 </a>
                 <a href='https://github.com/clrksanford/date-night'
-                  className='button projectLink' 
+                  className='button projectLink'
                   target='_blank'>
                   See the code
                 </a>
@@ -103,15 +103,12 @@ class Projects extends Component {
             <h3>Design Comp Practice</h3>
           </div>
           <div className='row'>
-            {/*}<div className='column'>
-              <h5>Austin Referral Page</h5>*/}
-              <img src={austinReferral}/>
-          </div>
-          <div className='row'>
-            {/*<div className='column'>
-              <h5>Relaxr</h5>*/}
-              <img src={relaxr}/>
-            {/*</div>*/}
+            <div className='column'>
+              <img src={austinReferral} className='designCompPic' alt='Austin Referral Page design comp'/>
+            </div>
+            <div className='column'>
+              <img src={relaxr} className='designCompPic' alt='Relxar design comp'/>
+            </div>
           </div>
           <div className='row'>
             <div className='column'>

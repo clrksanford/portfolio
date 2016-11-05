@@ -80,14 +80,17 @@ table {
 	text-decoration: none;
 }
 
+body {
+	background: url('../public/images/marrakech-tiles.jpg');
+}
+
 main {
 	position: absolute;
 	top: 0;
 	left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
-  background: url('../public/images/marrakech-tiles.jpg');
+	z-index: -1;
 }
 
 /*---------------------------*/

@@ -10,7 +10,7 @@ class Resume extends Component {
         </div>
         <div className='pageMain'>
           <img src={resumePic} alt='Resume' id='resume'/>
-          <a href={resumePic} id='resumeLink' download>Download</a>
+          <a href={resumePic} id='resumeLink' className='button' download>Download</a>
         </div>
       </div>
     );

@@ -68,6 +68,18 @@ table {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+.hidden {
+	display: none;
+}
+
+.button {
+	width: 10%;
+	margin: 0 auto;
+	padding: 8px 12px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
 main {
 	position: absolute;
 	top: 0;
@@ -100,7 +112,7 @@ nav .link, nav a {
 }
 
 .link:hover, a:hover {
-  color: rgb(68, 162, 143);
+  color: rgb(68, 162, 143); /* turquoise */
   text-decoration: none;
 }
 
@@ -118,6 +130,10 @@ header h2 {
   margin: 100px auto;
   background-color: rgba(255,255,255,0.9);
 	text-align: center;
+}
+
+.pageContent a {
+	display: block;
 }
 
 .column {
@@ -138,15 +154,63 @@ header h2 {
 	font-size: 24px;
 }
 
-.pageContent img {
+/*---------------------------*/
+/*----PROJECT PAGE STYLES----*/
+/*---------------------------*/
+
+.projectTile {
 	width: 80%;
-	height: auto;
+	height: 400px;
 	display: block;
 	margin: 0 auto;
+	background-position: center;
+	background-size: cover;
 }
 
-.pageContent a {
-	display: block;
+#dateNight {
+	background-image: url('../public/images/date-night.jpg');
+}
+
+#danceFinder {
+	background-image: url('../public/images/dance-finder.jpg');
+}
+
+.projectTileInner {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.91);
+	color: white;
+	padding: 10%;
+}
+
+.projectTileInner h5, p {
+	margin-bottom: 3%;
+}
+
+.projectTileInner h5 {
+	font-size: 30px;
+}
+
+.projectTileInner p {
+	line-height: 1.5;
+}
+
+.projectEmphasis {
+	font-weight: bold;
+}
+
+a.projectLink {
+	background-color: rgb(80, 67, 86);
+	color: white;
+	display: inline-block;
+	width: 20%;
+	margin: 0 10px;
+}
+
+.projectLink:hover {
+	background-color: rgb(68, 162, 143);
+	color: white;
 }
 
 /*-------------------------*/
@@ -223,14 +287,9 @@ img#resume {
 #resumeLink {
 	color: white;
 	background-color: black;
-	width: 10%;
-	margin: 0 auto;
-	padding: 8px 12px;
-	border-radius: 5px;
-	text-decoration: none;
 }
 
 #resumeLink:hover {
-	background-color: rgb(80, 67, 86);
+	background-color: rgb(80, 67, 86); /* purple */
 	text-decoration: none;
 }

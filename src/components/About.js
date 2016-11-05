@@ -11,6 +11,31 @@ class About extends Component {
     return(
       <div className='pageContent'>
         <div className='pageHeader'>
+          <h3>Skills</h3>
+        </div>
+        <div className='row'>
+          <div className='column'>
+            <p>
+              <span className='emphasis'>Languages:</span> {' '}
+              JavaScript, HTML, CSS
+            </p>
+            <p>
+              <span className='emphasis'>Client-Side:</span> {' '}
+              Bootstrap, jQuery, AJAX, React.js
+            </p>
+          </div>
+          <div className='column'>
+            <p>
+              <span className='emphasis'>Server-Side:</span> {' '}
+              Node.js, Express, MongoDB, Firebase
+            </p>
+            <p>
+              <span className='emphasis'>Version Control:</span> {' '}
+              Git, GitHub
+            </p>
+          </div>
+        </div>
+        <div className='pageHeader'>
           <h3>Interests</h3>
         </div>
         <div className='flexContainer'>

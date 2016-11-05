@@ -212,7 +212,7 @@ h1 {
 	line-height: 1.5;
 }
 
-.projectEmphasis {
+.emphasis {
 	font-weight: bold;
 }
 
@@ -303,6 +303,8 @@ a.projectLink:hover {
 img#resume {
 	margin-bottom: 3%;
 	border: 5px solid rgb(15, 62, 112);
+	width: 90%;
+	height: auto;
 }
 
 #resumeLink {

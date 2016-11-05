@@ -46,11 +46,11 @@ class Projects extends Component {
                 A page created to synthesize information about community dances happening across the country.
                 </p>
                 <p>
-                <span className='projectEmphasis'>Tools:</span> {' '}
+                <span className='emphasis'>Tools:</span> {' '}
                 Built with MongoDB, Express, and Node.js.
                 </p>
                 <p>
-                <span className='projectEmphasis'>Description:</span> {' '}
+                <span className='emphasis'>Description:</span> {' '}
                 This was my first experience scraping websites and seeding a database.
                 </p>
                 <a href='https://clrksanford.github.io/dance-finder'
@@ -78,12 +78,12 @@ class Projects extends Component {
                 </p>
 
                 <p>
-                  <span className='projectEmphasis'>Tools:</span> {' '}
+                  <span className='emphasis'>Tools:</span> {' '}
                   Built with MongoDB, Express, and Node.js.
                 </p>
 
                 <p>
-                  <span className='projectEmphasis'>Description:</span> {' '}
+                  <span className='emphasis'>Description:</span> {' '}
                   This was our first group project at General Assembly and was built over the course of 5 days.
                 </p>
                 <a href='https://clrksanford.github.io/date-night'

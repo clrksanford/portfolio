@@ -331,3 +331,17 @@ img#resume {
 	background-color: rgb(80, 67, 86); /* purple */
 	text-decoration: none;
 }
+
+/*--------------------------*/
+/*---CONTACT PAGE STYLES----*/
+/*--------------------------*/
+
+.contactPageIcon {
+	font-size: 30px;
+	display: block;
+	margin: 30px 0;
+}
+
+.contactTile {
+	width: 30%;
+}

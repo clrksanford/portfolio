@@ -245,10 +245,6 @@ a.projectLink:hover {
 	color: white;
 }
 
-a.projectLink.designLink {
-	width: 40%;
-}
-
 /*-------------------------*/
 /*----ABOUT PAGE STYLES----*/
 /*-------------------------*/
@@ -297,10 +293,16 @@ a.projectLink.designLink {
 	text-align: left;
 }
 
-.flexContainer {
+.flexContainerRow {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.flexContainerColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .tile {

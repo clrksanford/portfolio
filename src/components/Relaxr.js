@@ -15,7 +15,7 @@ class Relaxr extends Component {
 
   _handleMouseOver() {
       this.setState({
-        class: ''
+        class: 'flexContainerColumn'
       });
   }
 
@@ -34,11 +34,13 @@ class Relaxr extends Component {
         <div className={`projectTileInner ${this.state.class}`}>
           <h5>Relaxr</h5>
           <p>Resources and assets provided by General Assembly Austin.</p>
-          <a href='https://github.com/clrksanford/ga-relaxr'
-            className='button projectLink designLink'
-            target='_blank'>
-            See the code
-          </a>
+          <div className='buttonContainer'>
+            <a href='https://github.com/clrksanford/ga-relaxr'
+              className='button projectLink'
+              target='_blank'>
+              See the code
+            </a>
+          </div> {/* --close buttonContainer-- */}
         </div> {/* --close projectTileInner-- */}
       </div>
     );

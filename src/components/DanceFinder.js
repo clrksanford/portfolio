@@ -15,7 +15,7 @@ class DanceFinder extends Component {
 
   _handleMouseOver() {
       this.setState({
-        class: ''
+        class: 'flexContainerColumn'
       });
   }
 
@@ -44,18 +44,20 @@ class DanceFinder extends Component {
           <span className='emphasis'>Description:</span> {' '}
           This was my first experience scraping websites and seeding a database.
           </p>
-          <a href='https://clrksanford.github.io/dance-finder'
-            className='button projectLink'
-            target='_blank'>
-            See the site
-          </a>
-          <a href='https://github.com/clrksanford/dance-finder'
-            className='button projectLink'
-            target='_blank'>
-            See the code
-          </a>
+          <div className='buttonContainer'>
+            <a href='https://clrksanford.github.io/dance-finder'
+              className='button projectLink'
+              target='_blank'>
+              See the site
+            </a>
+            <a href='https://github.com/clrksanford/dance-finder'
+              className='button projectLink'
+              target='_blank'>
+              See the code
+            </a>
+          </div> {/* --close buttonContainer-- */}
         </div> {/* --close projectTileInner-- */}
-      </div> 
+      </div>
     );
   }
 }

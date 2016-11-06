@@ -15,7 +15,7 @@ class DateNight extends Component {
 
   _handleMouseOver() {
       this.setState({
-        class: ''
+        class: 'flexContainerColumn'
       });
   }
 
@@ -46,16 +46,18 @@ class DateNight extends Component {
             <span className='emphasis'>Description:</span> {' '}
             This was our first group project at General Assembly and was built over the course of 5 days.
           </p>
-          <a href='https://clrksanford.github.io/date-night'
-            className='button projectLink'
-            target='_blank'>
-            See the site
-          </a>
-          <a href='https://github.com/clrksanford/date-night'
-            className='button projectLink'
-            target='_blank'>
-            See the code
-          </a>
+          <div className='buttonContainer'>
+            <a href='https://clrksanford.github.io/date-night'
+              className='button projectLink'
+              target='_blank'>
+              See the site
+            </a>
+            <a href='https://github.com/clrksanford/date-night'
+              className='button projectLink'
+              target='_blank'>
+              See the code
+            </a>
+          </div> {/* --close buttonContainer-- */}
         </div> {/* --close projectTileInner-- */}
       </div>
     );

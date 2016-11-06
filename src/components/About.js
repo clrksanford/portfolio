@@ -38,7 +38,7 @@ class About extends Component {
         <div className='pageHeader'>
           <h3>Interests</h3>
         </div>
-        <div className='flexContainer'>
+        <div className='flexContainerRow'>
           <div className='tile'>
             <h5>Social Dance</h5>
             <img src={dancePic} alt='Social dance'/>

@@ -35,6 +35,11 @@ class Relaxr extends Component {
           <h5>Relaxr</h5>
           <p>Resources and assets provided by General Assembly Austin.</p>
           <div className='buttonContainer'>
+            <a href='https://clrksanford.github.io/ga-relaxr/'
+              className='button projectLink'
+              target='_blank'>
+              See the site
+            </a>
             <a href='https://github.com/clrksanford/ga-relaxr'
               className='button projectLink'
               target='_blank'>

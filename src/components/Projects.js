@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import DateNight from './DateNight';
+import DanceFinder from './DanceFinder';
 
 // Images
 import danceFinder from '../../public/images/dance-finder.jpg';
@@ -39,35 +40,7 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row'>
-            <div className='projectTile'
-                id='danceFinder'
-                onMouseOver={this._handleMouseOver}
-                onMouseOut={this._handeMouseOut}>
-              <div className={`projectTileInner ${this.state.class}`}>
-                <h5>Dance Finder</h5>
-                <p>
-                A page created to synthesize information about community dances happening across the country.
-                </p>
-                <p>
-                <span className='emphasis'>Tools:</span> {' '}
-                Built with MongoDB, Express, and Node.js.
-                </p>
-                <p>
-                <span className='emphasis'>Description:</span> {' '}
-                This was my first experience scraping websites and seeding a database.
-                </p>
-                <a href='https://clrksanford.github.io/dance-finder'
-                  className='button projectLink'
-                  target='_blank'>
-                  See the site
-                </a>
-                <a href='https://github.com/clrksanford/dance-finder'
-                  className='button projectLink'
-                  target='_blank'>
-                  See the code
-                </a>
-              </div> {/* --close projectTileInner-- */}
-            </div> {/* --close projectTile-- */}
+            <DanceFinder />
           </div> {/* --close row-- */}
           <div className='row'>
             <DateNight />

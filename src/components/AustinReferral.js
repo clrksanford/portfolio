@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import austinReferral from '../../public/images/austin-referral-2.jpg';
+import austinReferral from '../../public/images/austin-referral.jpg';
 
 class AustinReferral extends Component {
   constructor(props) {

@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import DateNight from './DateNight';
+
+// Images
 import danceFinder from '../../public/images/dance-finder.jpg';
 import dateNight from '../../public/images/date-night.jpg';
 import austinReferral from '../../public/images/austin-referral-2.jpg';
@@ -67,37 +70,7 @@ class Projects extends Component {
             </div> {/* --close projectTile-- */}
           </div> {/* --close row-- */}
           <div className='row'>
-            <div className='projectTile'
-                id='dateNight'
-                onMouseOver={this._handleMouseOver}
-                onMouseOut={this._handeMouseOut}>
-              <div className={`projectTileInner ${this.state.class}`}>
-                <h5>Date Night</h5>
-                <p>
-                  A CRUD app created to help users plan a "date night" by offering recipe and movie recommendations which the users can then save and customize.
-                </p>
-
-                <p>
-                  <span className='emphasis'>Tools:</span> {' '}
-                  Built with MongoDB, Express, and Node.js.
-                </p>
-
-                <p>
-                  <span className='emphasis'>Description:</span> {' '}
-                  This was our first group project at General Assembly and was built over the course of 5 days.
-                </p>
-                <a href='https://clrksanford.github.io/date-night'
-                  className='button projectLink'
-                  target='_blank'>
-                  See the site
-                </a>
-                <a href='https://github.com/clrksanford/date-night'
-                  className='button projectLink'
-                  target='_blank'>
-                  See the code
-                </a>
-              </div> {/* --close projectTileInner-- */}
-            </div> {/* --close projectTile-- */}
+            <DateNight />
           </div> {/* --close row-- */}
           <div className='pageHeader'>
             <h3>Design Comp Practice</h3>

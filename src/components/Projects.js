@@ -11,7 +11,8 @@ class Projects extends Component {
     return(
       <div className='pageContent'>
         <div className='pageHeader'>
-          <h3>Projects</h3>
+          <h3 id='projectHeadline'>Projects</h3>
+          <h4 id='projectSubtitle'>Hover over the tiles for more information</h4>
         </div>
         <div className='pageMain'>
           <div className='row'>

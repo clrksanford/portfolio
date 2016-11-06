@@ -163,6 +163,7 @@ header h2 {
 
 .pageContent h3 {
 	font-size: 24px;
+	font-weight: bold;
 }
 
 /*---------------------------*/
@@ -181,6 +182,13 @@ h2#homeSubtitle {
 /*---------------------------*/
 /*----PROJECT PAGE STYLES----*/
 /*---------------------------*/
+h3#projectHeadline {
+	margin-bottom: 10px;
+}
+
+h4#projectSubtitle {
+	font-size: 18px;
+}
 
 .projectTile {
 	width: 80%;

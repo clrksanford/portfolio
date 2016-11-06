@@ -7,6 +7,7 @@ class Home extends Component {
       <div className="pageContent">
         <div className='pageHeader'>
           <h1>Portfolio of Clark Sanford</h1>
+          <h2 id='homeSubtitle'>Full-Stack Web Developer Based in ATX</h2>
         </div>
         <div className='row clearfix' id='aboutContainer'>
           <img src={headshot} alt='headshot' id='headshot'/>

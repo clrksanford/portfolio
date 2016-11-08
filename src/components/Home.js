@@ -14,11 +14,11 @@ class Home extends Component {
           <img src={headshot} alt='headshot' id='headshot'/>
           <div id='aboutParagraph'>
             <ul>
-              <li>Literature major, world traveler</li>
-              <li>Highly independent critical thinker</li>
-              <li>Process-oriented and creative</li>
-              <li>Excellent communicator</li>
-              <li>Innovative problem solver</li>
+              <p id='p1'>Literature major, world traveler</p>
+              <p id='p2'>Highly independent critical thinker</p>
+              <p id='p3'>Process-oriented and creative</p>
+              <p id='p4'>Excellent communicator</p>
+              <p id='p5'>Innovative problem solver</p>
             </ul>
           </div>
         </div>

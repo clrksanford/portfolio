@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import austinReferral from '../../public/images/austin-referral.jpg';
 
-class AustinReferral extends Component {
+class Clemo extends Component {
   constructor(props) {
     super(props);
 
@@ -28,19 +27,19 @@ class AustinReferral extends Component {
   render() {
     return(
       <div className='projectTile'
-        id='austinReferral'
+        id='clemo'
         onMouseOver={this._handleMouseOver}
         onMouseOut={this._handeMouseOut}>
         <div className={`projectTileInner ${this.state.class}`}>
-          <h5>Austin Referral Page</h5>
+          <h5>Clemo</h5>
           <p>HTML & CSS mock-up based on design comp and assets. Resources provided by General Assembly Austin.</p>
           <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/ga-austin-referral-page/'
+            <a href='https://clrksanford.github.io/ga-clemo/'
               className='button projectLink'
               target='_blank'>
               See the site
             </a>
-            <a href='https://github.com/clrksanford/ga-austin-referral-page'
+            <a href='https://github.com/clrksanford/ga-clemo'
               className='button projectLink'
               target='_blank'>
               See the code
@@ -52,4 +51,4 @@ class AustinReferral extends Component {
   }
 }
 
-export default AustinReferral;
+export default Clemo;

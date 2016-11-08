@@ -33,7 +33,7 @@ class Relaxr extends Component {
         onMouseOut={this._handeMouseOut}>
         <div className={`projectTileInner ${this.state.class}`}>
           <h5>Relaxr</h5>
-          <p>Resources and assets provided by General Assembly Austin.</p>
+          <p>HTML & CSS mock-up based on design comp and assets. Resources provided by General Assembly Austin.</p>
           <div className='buttonContainer'>
             <a href='https://clrksanford.github.io/ga-relaxr/'
               className='button projectLink'

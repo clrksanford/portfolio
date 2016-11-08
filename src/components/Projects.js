@@ -5,6 +5,7 @@ import DateNight from './DateNight';
 import DanceFinder from './DanceFinder';
 import AustinReferral from './AustinReferral';
 import Relaxr from './Relaxr';
+import Clemo from './Clemo';
 
 class Projects extends Component {
   render() {
@@ -29,7 +30,10 @@ class Projects extends Component {
           </div>
           <div className='row'>
             <Relaxr />
-          </div> {/* --close row-- */}
+          </div>
+          <div className='row'>
+            <Clemo />
+          </div>
         </div>
       </div>
     );

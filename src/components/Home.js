@@ -13,17 +13,12 @@ class Home extends Component {
         <div className='row clearfix' id='aboutContainer'>
           <img src={headshot} alt='headshot' id='headshot'/>
           <div id='aboutParagraph'>
-          <Keyframes>
-            <Frame duration={500}>This</Frame>
-            <Frame duration={500}>This is</Frame>
-            <Frame duration={500}>This is <em>animated</em>.</Frame>
-          </Keyframes>
             <ul>
-              <li className='fadeIn'>Literature major, world traveler</li>
-              <li className='fadeIn'>Highly independent critical thinker</li>
-              <li className='fadeIn'>Process-oriented and creative</li>
-              <li className='fadeIn'>Excellent communicator</li>
-              <li className='fadeIn'>Innovative problem solver</li>
+              <li>Literature major, world traveler</li>
+              <li>Highly independent critical thinker</li>
+              <li>Process-oriented and creative</li>
+              <li>Excellent communicator</li>
+              <li>Innovative problem solver</li>
             </ul>
           </div>
         </div>

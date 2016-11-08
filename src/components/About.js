@@ -5,6 +5,7 @@ import dancePic from '../../public/images/int-contra.jpg';
 import yogaPic from '../../public/images/int-yoga2.jpg';
 import pianoPic from '../../public/images/int-piano.jpg';
 import travelPic from '../../public/images/int-plane2.jpg';
+import medievalPic from '../../public/images/int-medieval.jpg';
 
 class About extends Component {
   render() {
@@ -54,6 +55,10 @@ class About extends Component {
           <div className='tile'>
             <h5>Travel</h5>
             <img src={travelPic} alt='Travel'/>
+          </div>
+          <div className='tile'>
+            <h5>Medieval Art History</h5>
+            <img src={medievalPic} alt='Medieavl Art'/>
           </div>
         </div>
       </div>

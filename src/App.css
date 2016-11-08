@@ -341,6 +341,10 @@ a.projectLink:hover {
 	width: 22%;
 }
 
+.tile h5 {
+	margin-bottom: 10px;
+}
+
 .tile img {
 	width: 90%;
 }

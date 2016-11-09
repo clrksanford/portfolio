@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 // Components
 import DateNight from './DateNight';
 import DanceFinder from './DanceFinder';
+import LaVieEn from './LaVieEn';
 import AustinReferral from './AustinReferral';
 import Relaxr from './Relaxr';
 import Clemo from './Clemo';
@@ -18,10 +19,13 @@ class Projects extends Component {
         <div className='pageMain'>
           <div className='row'>
             <DanceFinder />
-          </div> {/* --close row-- */}
+          </div>
           <div className='row'>
             <DateNight />
-          </div> {/* --close row-- */}
+          </div>
+          <div className='row'>
+            <LaVieEn />
+          </div>
           <div className='pageHeader'>
             <h3>Design Comp Practice</h3>
           </div>

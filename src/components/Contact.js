@@ -8,7 +8,7 @@ class Contact extends Component {
           <h3>Contact</h3>
         </div>
         <div className='pageMain'>
-          <div className='row flexContainer'>
+          <div className='row flexContainerRow'>
             <div className='contactTile'>
               <i className="fa fa-envelope contactPageIcon" aria-hidden="true"></i>
               <p>clrksanford@gmail.com</p>

@@ -72,6 +72,21 @@ table {
 	display: none;
 }
 
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn 6s;
+  animation-name: fadeIn 6s;
+}
+
 .button {
 	width: 10%;
 	margin: 0 auto;
@@ -139,7 +154,7 @@ header h2 {
 	box-sizing: border-box;
 	overflow: scroll;
   margin: 100px auto;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.96);
 	text-align: center;
 }
 
@@ -163,19 +178,32 @@ header h2 {
 
 .pageContent h3 {
 	font-size: 24px;
+	font-weight: bold;
 }
 
 /*---------------------------*/
 /*------HOME PAGE STYLES-----*/
 /*---------------------------*/
 h1 {
+	font-family: 'Bowlby One SC', cursive;
 	font-size: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+h2#homeSubtitle {
+	font-size: 34px;
 }
 
 /*---------------------------*/
 /*----PROJECT PAGE STYLES----*/
 /*---------------------------*/
+h3#projectHeadline {
+	margin-bottom: 10px;
+}
+
+h4#projectSubtitle {
+	font-size: 18px;
+}
 
 .projectTile {
 	width: 80%;
@@ -194,12 +222,20 @@ h1 {
 	background-image: url('../public/images/dance-finder.jpg');
 }
 
+#laVieEn {
+	background-image: url('../public/images/la-vie-en.jpg');
+}
+
 #austinReferral {
-	background-image: url('../public/images/austin-referral-2.jpg');
+	background-image: url('../public/images/austin-referral.jpg');
 }
 
 #relaxr {
 	background-image: url('../public/images/relaxr.jpg');
+}
+
+#clemo {
+	background-image: url('../public/images/clemo.jpg');
 }
 
 .projectTileInner {
@@ -243,10 +279,6 @@ a.projectLink {
 a.projectLink:hover {
 	background-color: rgb(68, 162, 143);
 	color: white;
-}
-
-a.projectLink.designLink {
-	width: 40%;
 }
 
 /*-------------------------*/
@@ -297,14 +329,24 @@ a.projectLink.designLink {
 	text-align: left;
 }
 
-.flexContainer {
+.flexContainerRow {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
+.flexContainerColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .tile {
 	width: 22%;
+}
+
+.tile h5 {
+	margin-bottom: 10px;
 }
 
 .tile img {

@@ -22,7 +22,7 @@ class About extends Component {
             </p>
             <p>
               <span className='emphasis'>Client-Side:</span> {' '}
-              Bootstrap, jQuery, AJAX, React.js
+              Bootstrap, SASS, jQuery, AJAX, React.js
             </p>
           </div>
           <div className='column'>

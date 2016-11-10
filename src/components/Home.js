@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Keyframes, Frame} from 'react-keyframes';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import headshot from '../../public/images/headshot.jpg';
 
 class Home extends Component {
@@ -13,13 +13,46 @@ class Home extends Component {
         <div className='row clearfix' id='aboutContainer'>
           <img src={headshot} alt='headshot' id='headshot'/>
           <div id='aboutParagraph'>
-            <ul>
-              <p id='p1'>Literature major, world traveler</p>
-              <p id='p2'>Highly independent critical thinker</p>
-              <p id='p3'>Process-oriented and creative</p>
-              <p id='p4'>Excellent communicator</p>
-              <p id='p5'>Innovative problem solver</p>
-            </ul>
+          <ReactCSSTransitionGroup
+           transitionName="first"
+           transitionAppear={true}
+           transitionAppearTimeout={2000}
+           transitionEnter={false}
+           transitionLeave={false}>
+           <p id='p1'>Literature major, world traveler</p>
+          </ReactCSSTransitionGroup>
+          <ReactCSSTransitionGroup
+           transitionName="second"
+           transitionAppear={true}
+           transitionAppearTimeout={2000}
+           transitionEnter={false}
+           transitionLeave={false}>
+           <p id='p2'>Highly independent critical thinker</p>
+          </ReactCSSTransitionGroup>
+          <ReactCSSTransitionGroup
+           transitionName="third"
+           transitionAppear={true}
+           transitionAppearTimeout={2000}
+           transitionEnter={false}
+           transitionLeave={false}>
+           <p id='p3'>Process-oriented and creative</p>
+          </ReactCSSTransitionGroup>
+          <ReactCSSTransitionGroup
+           transitionName="fourth"
+           transitionAppear={true}
+           transitionAppearTimeout={2000}
+           transitionEnter={false}
+           transitionLeave={false}>
+           <p id='p4'>Excellent communicator</p>
+          </ReactCSSTransitionGroup>
+          <ReactCSSTransitionGroup
+           transitionName="last"
+           transitionAppear={true}
+           transitionAppearTimeout={2000}
+           transitionEnter={false}
+           transitionLeave={false}>
+           <p id='p5'>Innovative problem solver</p>
+          </ReactCSSTransitionGroup>
           </div>
         </div>
       </div>

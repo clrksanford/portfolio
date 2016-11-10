@@ -22,9 +22,10 @@ class Home extends Component {
            <p id='p1'>Literature major, world traveler</p>
           </ReactCSSTransitionGroup>
           <ReactCSSTransitionGroup
-           transitionName="second"
+           transitionName="first"
            transitionAppear={true}
-           transitionAppearTimeout={2000}
+           transitionAppearTimeout={10000}
+           transitionDelay={3000}
            transitionEnter={false}
            transitionLeave={false}>
            <p id='p2'>Highly independent critical thinker</p>

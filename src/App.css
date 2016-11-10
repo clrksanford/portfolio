@@ -79,6 +79,7 @@ table {
 .first-appear.first-appear-active {
   opacity: 1;
   transition: opacity 3s ease-in;
+	delay: 5s;
 }
 
 .button {

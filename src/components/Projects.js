@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import DateNight from './DateNight';
 import DanceFinder from './DanceFinder';
 import LaVieEn from './LaVieEn';
+import TicTacToe from './TicTacToe';
 import AustinReferral from './AustinReferral';
 import Relaxr from './Relaxr';
 import Clemo from './Clemo';
@@ -26,17 +27,22 @@ class Projects extends Component {
           <div className='row'>
             <LaVieEn />
           </div>
-          <div className='pageHeader'>
-            <h3>Design Comp Practice</h3>
+          <div className='row'>
+            <TicTacToe />
+          </div>
+        </div>
+        <div className='pageHeader'>
+          <h3>Design Comp Practice</h3>
+        </div>
+        <div className='pageMain'>
+          <div className='row'>
+            <Clemo />
           </div>
           <div className='row'>
             <AustinReferral />
           </div>
           <div className='row'>
             <Relaxr />
-          </div>
-          <div className='row'>
-            <Clemo />
           </div>
         </div>
       </div>

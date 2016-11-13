@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.d77b7351.css",
-  "main.css.map": "static/css/main.d77b7351.css.map",
-  "main.js": "static/js/main.2263d1d6.js",
-  "main.js.map": "static/js/main.2263d1d6.js.map",
+  "main.css": "static/css/main.850afb8a.css",
+  "main.css.map": "static/css/main.850afb8a.css.map",
+  "main.js": "static/js/main.a90d68e3.js",
+  "main.js.map": "static/js/main.a90d68e3.js.map",
   "static/media/austin-referral.jpg": "static/media/austin-referral.1409668c.jpg",
   "static/media/clark-sanford-resume.jpg": "static/media/clark-sanford-resume.21ebed26.jpg",
   "static/media/clemo.jpg": "static/media/clemo.b6e9d4ed.jpg",
@@ -16,5 +16,6 @@
   "static/media/int-yoga2.jpg": "static/media/int-yoga2.3d0bfd9c.jpg",
   "static/media/la-vie-en.jpg": "static/media/la-vie-en.533bd0f2.jpg",
   "static/media/marrakech-tiles.jpg": "static/media/marrakech-tiles.4a8eb4c0.jpg",
-  "static/media/relaxr.jpg": "static/media/relaxr.ae71fb73.jpg"
+  "static/media/relaxr.jpg": "static/media/relaxr.ae71fb73.jpg",
+  "static/media/tic-tac-toe.jpg": "static/media/tic-tac-toe.ab666901.jpg"
 }

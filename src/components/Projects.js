@@ -21,6 +21,25 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row'>
+            <ProjectTile id='tripFolio'>
+              <h5>TripFolio</h5>
+              <p>
+              A web app designed to overhaul the travel planning experience by allowing users to save recommendations and share them with others.
+              </p>
+              <p>
+              <span className='emphasis'>Tools:</span> {' '}
+              Built with Firebase and React.js.
+              </p>
+              <p>
+              <span className='emphasis'>Description:</span> {' '}
+              As an avid traveler, this is a site I have wanted to build for a long time, and I finally got the opportunity during our second group project at GA.
+              </p>
+              <ProjectButtons
+                codeLink='https://clrksanford.github.io/tripfolio' siteLink='https://github.com/clrksanford/tripfolio'
+              />
+            </ProjectTile>
+          </div>
+          <div className='row'>
             <ProjectTile id='danceFinder'>
               <h5>Dance Finder</h5>
               <p>

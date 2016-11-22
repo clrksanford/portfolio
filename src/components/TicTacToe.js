@@ -46,12 +46,12 @@ class TicTacToe extends Component {
             This was our first individual project at General Assembly, with the goal of practicing jQuery, DOM manipulation, and mapping complex business logic.
           </p>
           <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/la-vie-en-rose'
+            <a href='https://clrksanford.github.io/tic-tac-toe'
               className='button projectLink'
               target='_blank'>
               See the site
             </a>
-            <a href='https://github.com/clrksanford/la-vie-en-rose'
+            <a href='https://github.com/clrksanford/tic-tac-toe'
               className='button projectLink'
               target='_blank'>
               See the code

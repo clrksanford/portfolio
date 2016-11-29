@@ -129,7 +129,7 @@ nav .link, nav a {
 }
 
 .link:hover, a:hover {
-  color: rgb(68, 162, 143); /* turquoise */
+  color: rgb(100,160,223); /* turquoise */
   text-decoration: none;
 }
 
@@ -280,7 +280,7 @@ a.projectLink {
 }
 
 a.projectLink:hover {
-	background-color: rgb(68, 162, 143);
+	background-color: rgb(100,160,223);
 	color: white;
 }
 
@@ -373,7 +373,7 @@ img#resume {
 }
 
 #resumeLink:hover {
-	background-color: rgb(68, 162, 143);
+	background-color: rgb(100,160,223);
 	text-decoration: none;
 }
 
@@ -389,4 +389,14 @@ img#resume {
 
 .contactTile {
 	width: 30%;
+}
+
+.contactTile a {
+	color: black;
+	text-decoration: none;
+}
+
+.contactTile a:hover {
+	color: rgb(100,160,223);
+	text-decoration: none;
 }

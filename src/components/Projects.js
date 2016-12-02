@@ -1,15 +1,24 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
 
 // Components
-import ProjectTile from './ProjectTile';
-import ProjectButtons from './ProjectButtons';
-// import DateNight from './DateNight';
-// import DanceFinder from './DanceFinder';
-// import LaVieEn from './LaVieEn';
-// import TicTacToe from './TicTacToe';
-// import AustinReferral from './AustinReferral';
-// import Relaxr from './Relaxr';
-// import Clemo from './Clemo';
+import AustinReferral from './projectComponents/AustinReferral';
+import Clemo from './projectComponents/Clemo';
+import DanceFinder from './projectComponents/DanceFinder';
+import DateNight from './projectComponents/DateNight';
+import Relaxr from './projectComponents/Relaxr';
+import TicTacToe from './projectComponents/TicTacToe';
+// import ProjectTile from './ProjectTile';
+// import ProjectButtons from './ProjectButtons';
+
+// Styles and images
+import ticTacToeImg from '../../public/images/tic-tac-toe.jpg';
+import tripFolioImg from '../../public/images/tripfolio.jpg';
+import danceFinderImg from '../../public/images/dance-finder.jpg';
+import dateNightImg from '../../public/images/date-night.jpg';
+import clemoImg from '../../public/images/clemo.jpg';
+import austinReferralImg from '../../public/images/austin-referral.jpg';
+import relaxrImg from '../../public/images/relaxr.jpg';
 
 class Projects extends Component {
   render() {
@@ -20,8 +29,39 @@ class Projects extends Component {
           <h4 id='projectSubtitle'>Hover over the tiles for more information</h4>
         </div>
         <div className='pageMain'>
-          <div className='row'>
-            <ProjectTile id='tripFolio'>
+          <div className='row flexContainerRow'>
+            <Link to='/date-night' className='projectTile'>
+              <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            </Link>
+            <Link to='/dance-finder' className='projectTile'>
+              <img src={danceFinderImg} alt='Tic Tac Toe board with blue background' />
+            </Link>
+          </div>
+          <div className='row flexContainerRow'>
+            <Link to='/tic-tac-toe' className='projectTile'>
+              <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' />
+            </Link>
+          </div>
+        </div>
+        <div className='pageHeader'>
+          <h3>Design Comp Practice</h3>
+        </div>
+        <div className='pageMain'>
+          <div className='row flexContainerRow'>
+            <Link to='/clemo' className='projectTile'>
+              <img src={clemoImg} />
+            </Link>
+            <Link to='/austin-referral' className='projectTile'>
+              <img src={austinReferralImg} />
+            </Link>
+          </div>
+          <div className='row flexContainerRow'>
+            <Link to='/relaxr' className='projectTile'>
+              <img src={relaxrImg} />
+            </Link>
+          </div>
+        </div>
+            {/* <ProjectTile id='tripFolio'>
               <h5>TripFolio</h5>
               <p>
               A web app designed to overhaul the travel planning experience by allowing users to save recommendations and share them with others.
@@ -129,8 +169,7 @@ class Projects extends Component {
                 codeLink='https://clrksanford.github.io/ga-relaxr' siteLink='https://github.com/clrksanford/ga-relaxr'
               />
             </ProjectTile>
-          </div>
-        </div>
+          </div> */}
       </div>
     );
   }

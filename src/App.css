@@ -92,6 +92,7 @@ table {
 
 body {
 	background: url('../public/images/marrakech-tiles.jpg');
+	font-family: Helvetica, sans-serif;
 }
 
 main {
@@ -200,13 +201,33 @@ h4#projectSubtitle {
 	font-size: 18px;
 }
 
-.projectTile {
+/*.projectTile {
 	width: 80%;
 	height: 400px;
 	display: block;
 	margin: 0 auto;
 	background-position: center;
 	background-size: cover;
+}*/
+
+.projectImage {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.projectTile {
+	width: 40%;
+	height: auto;
+}
+
+.projectTile img {
+	width: 100%;
+	height: auto;
+}
+
+.projectTile img:hover {
+	opacity: 0.7;
 }
 
 #tripFolio {
@@ -336,6 +357,11 @@ a.projectLink:hover {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.projectRow img {
+	width: 40%;
+	height: auto;
 }
 
 .flexContainerColumn {

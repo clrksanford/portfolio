@@ -7,7 +7,7 @@ class AustinReferral extends Component {
   render() {
     return(
       <div className='pageContent'>
-        <Link to='/projects' className='closeProject'>
+        <Link to='/design-comp' className='closeProject'>
           X
         </Link>
         <div className='pageHeader'>

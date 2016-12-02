@@ -145,11 +145,11 @@ header h2 {
 
 .pageContent {
   width: 80%;
-	height: 80%;
+	height: 90%;
 	position: relative;
 	padding: 5%;
 	box-sizing: border-box;
-	overflow: scroll;
+	/*overflow: scroll;*/
   margin: 100px auto;
   background-color: rgba(255,255,255,0.96);
 	text-align: center;
@@ -194,12 +194,23 @@ h2#homeSubtitle {
 /*---------------------------*/
 /*----PROJECT PAGE STYLES----*/
 /*---------------------------*/
-h3#projectHeadline {
-	margin-bottom: 10px;
+.projectHeader {
+	display: inline-block;
 }
 
-h4#projectSubtitle {
-	font-size: 18px;
+.activeProjectPage {
+	color: rgb(100,160,223);
+}
+
+.toggleProjectPage {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+.toggleProjectPage:hover {
+	/*display: inline-block;*/
+	color: rgb(100,160,223);
 }
 
 .closeProject {

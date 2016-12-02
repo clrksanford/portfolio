@@ -7,6 +7,7 @@ import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 import App from './components/App';
 import About from './components/About';
 import Contact from './components/Contact';
+import DesignComp from './components/DesignComp';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
@@ -27,13 +28,17 @@ ReactDOM.render(
       <IndexRoute component={Home}/>
       <Route path='about' component={About}/>
       <Route path='projects' component={Projects}/>
-        <Route path='projects/austin-referral' component={AustinReferral}/>
-        <Route path='projects/clemo' component={Clemo}/>
         <Route path='projects/dance-finder' component={DanceFinder}/>
         <Route path='projects/date-night' component={DateNight}/>
-        <Route path='projects/relaxr' component={Relaxr}/>
         <Route path='projects/tic-tac-toe' component={TicTacToe}/>
         <Route path='projects/tripfolio' component={Tripfolio}/>
+      <Route path='design-comp' component={DesignComp}/>
+        <Route path='design-comp/austin-referral'
+          component={AustinReferral}/>
+        <Route path='design-comp/clemo'
+          component={Clemo}/>
+        <Route path='design-comp/relaxr'
+          component={Relaxr}/>
       <Route path='resume' component={Resume}/>
       <Route path='contact' component={Contact}/>
     </Route>

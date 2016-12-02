@@ -4,18 +4,11 @@ import { Link } from 'react-router';
 // Components
 import AustinReferral from './projectComponents/AustinReferral';
 import Clemo from './projectComponents/Clemo';
-import DanceFinder from './projectComponents/DanceFinder';
-import DateNight from './projectComponents/DateNight';
 import Relaxr from './projectComponents/Relaxr';
-import TicTacToe from './projectComponents/TicTacToe';
 // import ProjectTile from './ProjectTile';
 // import ProjectButtons from './ProjectButtons';
 
 // Styles and images
-import ticTacToeImg from '../../public/images/tic-tac-toe.jpg';
-import tripFolioImg from '../../public/images/tripfolio.jpg';
-import danceFinderImg from '../../public/images/dance-finder.jpg';
-import dateNightImg from '../../public/images/date-night.jpg';
 import clemoImg from '../../public/images/clemo.jpg';
 import austinReferralImg from '../../public/images/austin-referral.jpg';
 import relaxrImg from '../../public/images/relaxr.jpg';
@@ -25,30 +18,27 @@ class Projects extends Component {
     return(
       <div className='pageContent'>
         <div className='pageHeader'>
-          <h3 className='activeProjectPage projectHeader'>
-            Projects
-          </h3> /{' '}
           <h3 className='projectHeader'>
-            <Link to='/design-comp' className='toggleProjectPage'>
-              Design Comp Practice
+            <Link to='/projects' className='toggleProjectPage'>
+              Projects
             </Link>
+          </h3> /{' '}
+          <h3 className='activeProjectPage projectHeader'>
+            Design Comp Practice
           </h3>
         </div>
         <div className='pageMain'>
           <div className='row flexContainerRow'>
-            <Link to='/projects/tripfolio' className='projectTile'>
-              <img src={tripFolioImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            <Link to='/design-comp/clemo' className='projectTile'>
+              <img src={clemoImg} />
             </Link>
-            <Link to='/projects/dance-finder' className='projectTile'>
-              <img src={danceFinderImg} alt='Tic Tac Toe board with blue background' />
+            <Link to='/design-comp/austin-referral' className='projectTile'>
+              <img src={austinReferralImg} />
             </Link>
           </div>
           <div className='row flexContainerRow'>
-            <Link to='/projects/date-night' className='projectTile'>
-              <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
-            </Link>
-            <Link to='/projects/tic-tac-toe' className='projectTile'>
-              <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' />
+            <Link to='/design-comp/relaxr' className='projectTile'>
+              <img src={relaxrImg} />
             </Link>
           </div>
         </div>

@@ -6,7 +6,7 @@ import ticTacToeImg from '../../../public/images/tic-tac-toe.jpg';
 class TicTacToe extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/projects' className='closeProject'>
           X
         </Link>

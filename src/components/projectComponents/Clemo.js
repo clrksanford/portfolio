@@ -6,7 +6,7 @@ import clemoImg from '../../../public/images/clemo.jpg';
 class Clemo extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/design-comp' className='closeProject'>
           X
         </Link>

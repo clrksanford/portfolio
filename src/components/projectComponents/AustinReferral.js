@@ -6,7 +6,7 @@ import austinReferral from '../../../public/images/austin-referral.jpg';
 class AustinReferral extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/design-comp' className='closeProject'>
           X
         </Link>

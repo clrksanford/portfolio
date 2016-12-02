@@ -6,7 +6,7 @@ import tripFolioImg from '../../../public/images/tripfolio.jpg';
 class DateNight extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/projects' className='closeProject'>
           X
         </Link>

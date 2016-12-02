@@ -6,7 +6,7 @@ import danceFinder from '../../../public/images/dance-finder.jpg';
 class DanceFinder extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/projects' className='closeProject'>
           X
         </Link>

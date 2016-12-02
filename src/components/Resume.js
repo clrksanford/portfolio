@@ -4,7 +4,7 @@ import resumePic from '../../public/images/clark-sanford-resume.jpg';
 class Resume extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <div className='pageHeader'>
           <h3>Resume</h3>
         </div>

@@ -6,7 +6,7 @@ import dateNight from '../../../public/images/date-night.jpg';
 class DateNight extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/projects' className='closeProject'>
           X
         </Link>

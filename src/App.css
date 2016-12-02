@@ -72,14 +72,8 @@ table {
 	display: none;
 }
 
-.first-appear {
-  opacity: 0.01;
-}
-
-.first-appear.first-appear-active {
-  opacity: 1;
-  transition: opacity 3s ease-in;
-	delay: 5s;
+.scrollContainer {
+	overflow: scroll;
 }
 
 .button {
@@ -93,6 +87,7 @@ table {
 body {
 	background: url('../public/images/marrakech-tiles.jpg');
 	font-family: Helvetica, sans-serif;
+	font-size: 20px;
 }
 
 main {
@@ -414,11 +409,10 @@ a.projectLink:hover {
 /*-------------------------*/
 /*---RESUME PAGE STYLES----*/
 /*-------------------------*/
-
 img#resume {
 	margin-bottom: 3%;
 	border: 5px solid rgb(15, 62, 112);
-	width: 90%;
+	width: 80%;
 	height: auto;
 }
 

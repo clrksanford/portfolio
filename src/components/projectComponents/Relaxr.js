@@ -6,7 +6,7 @@ import relaxr from '../../../public/images/relaxr.jpg';
 class Relaxr extends Component {
   render() {
     return(
-      <div className='pageContent'>
+      <div className='pageContent scrollContainer'>
         <Link to='/design-comp' className='closeProject'>
           X
         </Link>

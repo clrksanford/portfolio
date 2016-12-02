@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
+
 import austinReferral from '../../../public/images/austin-referral.jpg';
 
 class AustinReferral extends Component {
   render() {
     return(
       <div className='pageContent'>
+        <Link to='/projects' className='closeProject'>
+          X
+        </Link>
         <div className='pageHeader'>
           <h3>Austin Referral Page</h3>
         </div>

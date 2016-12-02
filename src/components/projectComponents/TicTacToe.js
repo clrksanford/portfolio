@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
 
 import ticTacToeImg from '../../../public/images/tic-tac-toe.jpg';
 
@@ -6,6 +7,9 @@ class TicTacToe extends Component {
   render() {
     return(
       <div className='pageContent'>
+        <Link to='/projects' className='closeProject'>
+          X
+        </Link>
         <div className='pageHeader'>
           <h3>Tic Tac Toe</h3>
         </div>

@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
+
 import relaxr from '../../../public/images/relaxr.jpg';
 
 class Relaxr extends Component {
   render() {
     return(
       <div className='pageContent'>
+        <Link to='/projects' className='closeProject'>
+          X
+        </Link>
         <div className='pageHeader'>
           <h3>Relaxr</h3>
         </div>

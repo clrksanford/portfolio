@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
 
 import clemoImg from '../../../public/images/clemo.jpg';
 
@@ -6,6 +7,9 @@ class Clemo extends Component {
   render() {
     return(
       <div className='pageContent'>
+        <Link to='/projects' className='closeProject'>
+          X
+        </Link>
         <div className='pageHeader'>
           <h3>Clemo</h3>
         </div>

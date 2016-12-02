@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
+
 import dateNight from '../../../public/images/date-night.jpg';
 
 class DateNight extends Component {
   render() {
     return(
       <div className='pageContent'>
+        <Link to='/projects' className='closeProject'>
+          X
+        </Link>
         <div className='pageHeader'>
           <h3>Date Night</h3>
         </div>

@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
+
 import danceFinder from '../../../public/images/dance-finder.jpg';
 
 class DanceFinder extends Component {
   render() {
     return(
       <div className='pageContent'>
+        <Link to='/projects' className='closeProject'>
+          X
+        </Link>
         <div className='pageHeader'>
           <h3>Dance Finder</h3>
         </div>

@@ -26,12 +26,12 @@ ReactDOM.render(
       <IndexRoute component={Home}/>
       <Route path='about' component={About}/>
       <Route path='projects' component={Projects}/>
-        <Route path='austin-referral' component={AustinReferral}/>
-        <Route path='clemo' component={Clemo}/>
-        <Route path='dance-finder' component={DanceFinder}/>
-        <Route path='date-night' component={DateNight}/>
-        <Route path='relaxr' component={Relaxr}/>
-        <Route path='tic-tac-toe' component={TicTacToe}/>
+        <Route path='projects/austin-referral' component={AustinReferral}/>
+        <Route path='projects/clemo' component={Clemo}/>
+        <Route path='projects/dance-finder' component={DanceFinder}/>
+        <Route path='projects/date-night' component={DateNight}/>
+        <Route path='projects/relaxr' component={Relaxr}/>
+        <Route path='projects/tic-tac-toe' component={TicTacToe}/>
       <Route path='resume' component={Resume}/>
       <Route path='contact' component={Contact}/>
     </Route>

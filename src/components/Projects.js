@@ -30,15 +30,15 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row flexContainerRow'>
-            <Link to='/date-night' className='projectTile'>
+            <Link to='/projects/date-night' className='projectTile'>
               <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
             </Link>
-            <Link to='/dance-finder' className='projectTile'>
+            <Link to='/projects/dance-finder' className='projectTile'>
               <img src={danceFinderImg} alt='Tic Tac Toe board with blue background' />
             </Link>
           </div>
           <div className='row flexContainerRow'>
-            <Link to='/tic-tac-toe' className='projectTile'>
+            <Link to='/projects/tic-tac-toe' className='projectTile'>
               <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' />
             </Link>
           </div>
@@ -48,15 +48,15 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row flexContainerRow'>
-            <Link to='/clemo' className='projectTile'>
+            <Link to='/projects/clemo' className='projectTile'>
               <img src={clemoImg} />
             </Link>
-            <Link to='/austin-referral' className='projectTile'>
+            <Link to='/projects/austin-referral' className='projectTile'>
               <img src={austinReferralImg} />
             </Link>
           </div>
           <div className='row flexContainerRow'>
-            <Link to='/relaxr' className='projectTile'>
+            <Link to='/projects/relaxr' className='projectTile'>
               <img src={relaxrImg} />
             </Link>
           </div>

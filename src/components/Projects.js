@@ -30,14 +30,17 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row flexContainerRow'>
-            <Link to='/projects/date-night' className='projectTile'>
-              <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            <Link to='/projects/tripfolio' className='projectTile'>
+              <img src={tripFolioImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
             </Link>
             <Link to='/projects/dance-finder' className='projectTile'>
               <img src={danceFinderImg} alt='Tic Tac Toe board with blue background' />
             </Link>
           </div>
           <div className='row flexContainerRow'>
+            <Link to='/projects/date-night' className='projectTile'>
+              <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            </Link>
             <Link to='/projects/tic-tac-toe' className='projectTile'>
               <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' />
             </Link>

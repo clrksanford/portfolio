@@ -18,6 +18,7 @@ import DanceFinder from './components/projectComponents/DanceFinder';
 import DateNight from './components/projectComponents/DateNight';
 import Relaxr from './components/projectComponents/Relaxr';
 import TicTacToe from './components/projectComponents/TicTacToe';
+import Tripfolio from './components/projectComponents/Tripfolio';
 
 
 ReactDOM.render(
@@ -32,6 +33,7 @@ ReactDOM.render(
         <Route path='projects/date-night' component={DateNight}/>
         <Route path='projects/relaxr' component={Relaxr}/>
         <Route path='projects/tic-tac-toe' component={TicTacToe}/>
+        <Route path='projects/tripfolio' component={Tripfolio}/>
       <Route path='resume' component={Resume}/>
       <Route path='contact' component={Contact}/>
     </Route>

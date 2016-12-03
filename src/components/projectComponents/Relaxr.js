@@ -14,7 +14,8 @@ class Relaxr extends Component {
           <h3>Relaxr</h3>
         </div>
         <div className='pageMain'>
-          <img src={relaxr} className='projectImage' />
+          <img src={relaxr} className='projectImage'
+            alt='A screenshot of the splash page to an imaginary website which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'/>
           <p>HTML & CSS mock-up based on design comp and assets. Resources provided by General Assembly Austin.</p>
           <div className='buttonContainer'>
             <a href='https://clrksanford.github.io/ga-relaxr/'

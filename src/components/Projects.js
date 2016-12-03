@@ -1,24 +1,11 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
-// Components
-import AustinReferral from './projectComponents/AustinReferral';
-import Clemo from './projectComponents/Clemo';
-import DanceFinder from './projectComponents/DanceFinder';
-import DateNight from './projectComponents/DateNight';
-import Relaxr from './projectComponents/Relaxr';
-import TicTacToe from './projectComponents/TicTacToe';
-// import ProjectTile from './ProjectTile';
-// import ProjectButtons from './ProjectButtons';
-
 // Styles and images
 import ticTacToeImg from '../../public/images/tic-tac-toe.jpg';
 import tripFolioImg from '../../public/images/tripfolio.jpg';
 import danceFinderImg from '../../public/images/dance-finder.jpg';
 import dateNightImg from '../../public/images/date-night.jpg';
-import clemoImg from '../../public/images/clemo.jpg';
-import austinReferralImg from '../../public/images/austin-referral.jpg';
-import relaxrImg from '../../public/images/relaxr.jpg';
 
 class Projects extends Component {
   render() {

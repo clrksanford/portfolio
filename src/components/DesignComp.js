@@ -1,13 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
-// Components
-import AustinReferral from './projectComponents/AustinReferral';
-import Clemo from './projectComponents/Clemo';
-import Relaxr from './projectComponents/Relaxr';
-// import ProjectTile from './ProjectTile';
-// import ProjectButtons from './ProjectButtons';
-
 // Styles and images
 import clemoImg from '../../public/images/clemo.jpg';
 import austinReferralImg from '../../public/images/austin-referral.jpg';
@@ -30,15 +23,18 @@ class Projects extends Component {
         <div className='pageMain'>
           <div className='row flexContainerRow'>
             <Link to='/design-comp/clemo' className='projectTile'>
-              <img src={clemoImg} />
+              <img src={clemoImg}
+                alt='A screenshot of the splash page to an imaginary website titled "Clemo" which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'/>
             </Link>
             <Link to='/design-comp/austin-referral' className='projectTile'>
-              <img src={austinReferralImg} />
+              <img src={austinReferralImg}
+                alt='A screenshot of the splash page to an imaginary website titled "Austin Referral Page" which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'/>
             </Link>
           </div>
           <div className='row flexContainerRow'>
             <Link to='/design-comp/relaxr' className='projectTile'>
-              <img src={relaxrImg} />
+              <img src={relaxrImg}
+                alt='A screenshot of the splash page to an imaginary website titled "Relaxr" which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'/>
             </Link>
           </div>
         </div>

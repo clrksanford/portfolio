@@ -2,12 +2,12 @@ import React from 'react';
 
 export default (props) => {
   return <div className='buttonContainer'>
-    <a href={props.codeLink}
+    <a href={`https://clrksanford.github.io/${props.projectName}`}
       className='button projectLink'
       target='_blank'>
       See the site
     </a>
-    <a href={props.siteLink}
+    <a href={`https://github.com/clrksanford/${props.projectName}`}
       className='button projectLink'
       target='_blank'>
       See the code

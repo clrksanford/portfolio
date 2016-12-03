@@ -1,6 +1,11 @@
+// Modules
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
+// Components
+import ProjectButtons from '../ProjectButtons';
+
+// Images
 import tripFolioImg from '../../../public/images/tripfolio.jpg';
 
 class DateNight extends Component {
@@ -26,18 +31,7 @@ class DateNight extends Component {
           <span className='emphasis'>Description:</span> {' '}
           As an avid traveler, this is a site I have wanted to build for a long time, and I finally got the opportunity during our second group project at GA.
           </p>
-          <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/tripfolio'
-              className='button projectLink'
-              target='_blank'>
-              See the site
-            </a>
-            <a href='https://github.com/clrksanford/tripfolio'
-              className='button projectLink'
-              target='_blank'>
-              See the code
-            </a>
-          </div> {/* --close buttonContainer-- */}
+          <ProjectButtons projectName='tripfolio' />
         </div> {/* --close pageMain-- */}
       </div>
     );

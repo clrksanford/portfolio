@@ -1,6 +1,11 @@
+// Modules
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
+// Components
+import ProjectButtons from '../ProjectButtons';
+
+// Images
 import dateNight from '../../../public/images/date-night.jpg';
 
 class DateNight extends Component {
@@ -28,18 +33,7 @@ class DateNight extends Component {
             <span className='emphasis'>Description:</span> {' '}
             This was our first group project at General Assembly and was built over the course of 5 days.
           </p>
-          <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/date-night'
-              className='button projectLink'
-              target='_blank'>
-              See the site
-            </a>
-            <a href='https://github.com/clrksanford/date-night'
-              className='button projectLink'
-              target='_blank'>
-              See the code
-            </a>
-          </div> {/* --close buttonContainer-- */}
+          <ProjectButtons projectName='date-night' />
         </div> {/* --close pageMain-- */}
       </div>
     );

@@ -1,6 +1,11 @@
+// Modules
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
+// Components
+import ProjectButtons from '../ProjectButtons';
+
+// Images
 import ticTacToeImg from '../../../public/images/tic-tac-toe.jpg';
 
 class TicTacToe extends Component {
@@ -28,18 +33,7 @@ class TicTacToe extends Component {
             <span className='emphasis'>Description:</span> {' '}
             This was our first individual project at General Assembly, with the goal of practicing jQuery, DOM manipulation, and mapping complex business logic.
           </p>
-          <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/tic-tac-toe'
-              className='button projectLink'
-              target='_blank'>
-              See the site
-            </a>
-            <a href='https://github.com/clrksanford/tic-tac-toe'
-              className='button projectLink'
-              target='_blank'>
-              See the code
-            </a>
-          </div> {/* --close buttonContainer-- */}
+          <ProjectButtons projectName='tic-tac-toe' />
         </div> {/* --close pageMain-- */}
       </div>
     );

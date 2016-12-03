@@ -1,6 +1,11 @@
+// Modules
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
+// Components
+import ProjectButtons from '../ProjectButtons';
+
+// Images
 import relaxr from '../../../public/images/relaxr.jpg';
 
 class Relaxr extends Component {
@@ -17,18 +22,7 @@ class Relaxr extends Component {
           <img src={relaxr} className='projectImage'
             alt='A screenshot of the splash page to an imaginary website which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'/>
           <p>HTML & CSS mock-up based on design comp and assets. Resources provided by General Assembly Austin.</p>
-          <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/ga-relaxr/'
-              className='button projectLink'
-              target='_blank'>
-              See the site
-            </a>
-            <a href='https://github.com/clrksanford/ga-relaxr'
-              className='button projectLink'
-              target='_blank'>
-              See the code
-            </a>
-          </div> {/* --close buttonContainer-- */}
+          <ProjectButtons projectName='ga-relaxr' />
         </div> {/* --close pageMain-- */}
       </div>
     );

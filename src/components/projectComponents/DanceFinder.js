@@ -1,6 +1,11 @@
+// Modules
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
+// Components
+import ProjectButtons from '../ProjectButtons';
+
+// Images
 import danceFinder from '../../../public/images/dance-finder.jpg';
 
 class DanceFinder extends Component {
@@ -26,18 +31,7 @@ class DanceFinder extends Component {
           <span className='emphasis'>Description:</span> {' '}
           This was my first experience scraping websites and seeding a database.
           </p>
-          <div className='buttonContainer'>
-            <a href='https://clrksanford.github.io/dance-finder'
-              className='button projectLink'
-              target='_blank'>
-              See the site
-            </a>
-            <a href='https://github.com/clrksanford/dance-finder'
-              className='button projectLink'
-              target='_blank'>
-              See the code
-            </a>
-          </div> {/* --close buttonContainer-- */}
+          <ProjectButtons projectName='dance-finder'/>
         </div> {/* --close pageMain-- */}
       </div>
     );

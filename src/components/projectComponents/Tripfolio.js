@@ -37,7 +37,7 @@ class TripFolio extends Component {
           As an avid traveler, this is a site I have wanted to build for a long time, and I finally got the opportunity during our second group project at GA.
           </p>
         </div> {/* --close pageMain-- */}
-        <ProjectButtons projectName='tripfolio' />
+        <ProjectButtons projectName='tripfolio-group' />
       </div>
     );
   }

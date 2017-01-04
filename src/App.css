@@ -240,6 +240,12 @@ h2#homeSubtitle {
 	margin: 0 auto;
 }
 
+.projectDescription {
+	width: 60%;
+	margin: 0 auto 3% auto;
+	text-align: left;
+}
+
 .projectTile {
 	width: 40%;
 	height: auto;

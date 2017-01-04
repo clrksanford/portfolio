@@ -18,12 +18,16 @@ class AustinReferral extends Component {
         <div className='pageHeader'>
           <h3>Austin Referral Page</h3>
         </div>
-        <div className='pageMain'>
-          <img src={austinReferral} className='projectImage'
-            alt='A screenshot of the splash page to an imaginary website which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'/>
+        <div className='row'>
+          <img src={austinReferral}
+            className='projectImage'
+            alt='A screenshot of the splash page to an imaginary website which I designed with HTML5 & CSS3 based on a design comp provided by General Assembly'
+          />
+        </div>
+        <div className='pageMain projectDescription'>
           <p>HTML & CSS mock-up based on design comp and assets. Resources provided by General Assembly Austin.</p>
-          <ProjectButtons projectName='ga-austin-referral-page' />
         </div> {/* --close pageMain-- */}
+        <ProjectButtons projectName='ga-austin-referral-page' />
       </div>
     );
   }

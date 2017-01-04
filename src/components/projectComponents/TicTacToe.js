@@ -18,8 +18,13 @@ class TicTacToe extends Component {
         <div className='pageHeader'>
           <h3>Tic Tac Toe</h3>
         </div>
-        <div className='pageMain'>
-          <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' className='projectImage'/>
+        <div className='row'>
+          <img src={ticTacToeImg}
+            className='projectImage'
+            alt='Tic Tac Toe board with blue background'
+          />
+        </div>
+        <div className='pageMain projectDescription'>
           <p>
             A visually-pleasing twist on an age-old classic.
           </p>
@@ -33,8 +38,8 @@ class TicTacToe extends Component {
             <span className='emphasis'>Description:</span> {' '}
             This was our first individual project at General Assembly, with the goal of practicing jQuery, DOM manipulation, and mapping complex business logic.
           </p>
-          <ProjectButtons projectName='tic-tac-toe' />
         </div> {/* --close pageMain-- */}
+        <ProjectButtons projectName='tic-tac-toe' />
       </div>
     );
   }

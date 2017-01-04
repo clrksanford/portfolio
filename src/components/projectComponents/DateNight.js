@@ -18,8 +18,13 @@ class DateNight extends Component {
         <div className='pageHeader'>
           <h3>Date Night</h3>
         </div>
-        <div className='pageMain'>
-          <img src={dateNight} alt='Couple sitting on the couch, their hands almost touching. Logo on top reads "Date Night." Splash page for the site.' className='projectImage'/>
+        <div className='row'>
+          <img src={dateNight}
+            className='projectImage'
+            alt='Couple sitting on the couch, their hands almost touching. Logo on top reads "Date Night." Splash page for the site.'
+          />
+        </div>
+        <div className='pageMain projectDescription'>
           <p>
             A CRUD app created to help users plan a "date night" by offering recipe and movie recommendations which the users can then save and customize.
           </p>
@@ -33,8 +38,8 @@ class DateNight extends Component {
             <span className='emphasis'>Description:</span> {' '}
             This was our first group project at General Assembly and was built over the course of 5 days.
           </p>
-          <ProjectButtons projectName='date-night' />
         </div> {/* --close pageMain-- */}
+        <ProjectButtons projectName='date-night' />
       </div>
     );
   }

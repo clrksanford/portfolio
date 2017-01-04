@@ -18,8 +18,13 @@ class DanceFinder extends Component {
         <div className='pageHeader'>
           <h3>Dance Finder</h3>
         </div>
-        <div className='pageMain'>
-          <img src={danceFinder} alt='People dancing in a crowded dance hall, with large yellow text reading "Where do you want to dance?" Splash page for the site.' className='projectImage' />
+        <div className='row'>
+          <img src={danceFinder}
+            className='projectImage'
+            alt='People dancing in a crowded dance hall, with large yellow text reading "Where do you want to dance?" Splash page for the site.'
+          />
+        </div>
+        <div className='pageMain projectDescription'>
           <p>
           A page created to synthesize information about community dances happening across the country.
           </p>
@@ -31,8 +36,8 @@ class DanceFinder extends Component {
           <span className='emphasis'>Description:</span> {' '}
           This was my first experience scraping websites and seeding a database.
           </p>
-          <ProjectButtons projectName='dance-finder'/>
         </div> {/* --close pageMain-- */}
+        <ProjectButtons projectName='dance-finder'/>
       </div>
     );
   }

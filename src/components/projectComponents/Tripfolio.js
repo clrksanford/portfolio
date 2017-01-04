@@ -8,7 +8,7 @@ import ProjectButtons from '../ProjectButtons';
 // Images
 import tripFolioImg from '../../../public/images/tripfolio.jpg';
 
-class DateNight extends Component {
+class TripFolio extends Component {
   render() {
     return(
       <div className='pageContent scrollContainer'>
@@ -18,8 +18,13 @@ class DateNight extends Component {
         <div className='pageHeader'>
           <h3>Tripfolio</h3>
         </div>
-        <div className='pageMain'>
-          <img src={tripFolioImg} alt='Sparkling blue-green alpine lake flanked by mountains. Logo in middle reads "Tripfolio." Splash page for the site.' className='projectImage'/>
+        <div className='row'>
+          <img src={tripFolioImg}
+            className='projectImage'
+            alt='Sparkling blue-green alpine lake flanked by mountains. Logo in middle reads "Tripfolio." Splash page for the site.'
+          />
+        </div>
+        <div className='pageMain projectDescription'>
           <p>
           A web app designed to overhaul the travel planning experience by allowing users to save recommendations and share them with others.
           </p>
@@ -31,11 +36,11 @@ class DateNight extends Component {
           <span className='emphasis'>Description:</span> {' '}
           As an avid traveler, this is a site I have wanted to build for a long time, and I finally got the opportunity during our second group project at GA.
           </p>
-          <ProjectButtons projectName='tripfolio' />
         </div> {/* --close pageMain-- */}
+        <ProjectButtons projectName='tripfolio' />
       </div>
     );
   }
 }
 
-export default DateNight;
+export default TripFolio;

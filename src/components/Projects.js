@@ -23,7 +23,7 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row flexContainerRow'>
-            <Link to='/projects/tripfolio' className='projectTile'>
+            <Link to='/projects/tripfolio-group' className='projectTile'>
               <img src={tripFolioImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
             </Link>
             <Link to='/projects/dance-finder' className='projectTile'>

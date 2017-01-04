@@ -8,7 +8,7 @@ import ProjectButtons from '../ProjectButtons';
 // Images
 import tripFolioImg from '../../../public/images/tripfolio.jpg';
 
-class TripFolio extends Component {
+class TripFolioGroup extends Component {
   render() {
     return(
       <div className='pageContent scrollContainer'>
@@ -43,4 +43,4 @@ class TripFolio extends Component {
   }
 }
 
-export default TripFolio;
+export default TripFolioGroup;

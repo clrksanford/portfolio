@@ -20,6 +20,7 @@ import DateNight from './components/projectComponents/DateNight';
 import Relaxr from './components/projectComponents/Relaxr';
 import TicTacToe from './components/projectComponents/TicTacToe';
 import TripfolioGroup from './components/projectComponents/TripfolioGroup';
+import TripfolioVersionTwo from './components/projectComponents/TripfolioVersionTwo';
 
 
 ReactDOM.render(
@@ -32,6 +33,7 @@ ReactDOM.render(
         <Route path='projects/date-night' component={DateNight}/>
         <Route path='projects/tic-tac-toe' component={TicTacToe}/>
         <Route path='projects/tripfolio-group' component={TripfolioGroup}/>
+        <Route path='projects/tripfolio-version-2' component={TripfolioVersionTwo}/>
       <Route path='design-comp' component={DesignComp}/>
         <Route path='design-comp/austin-referral'
           component={AustinReferral}/>

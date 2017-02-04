@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 // Styles and images
 import ticTacToeImg from '../../public/images/tic-tac-toe.jpg';
 import tripFolioImg from '../../public/images/tripfolio.jpg';
+import tripFolioTwoImg from '../../public/images/tripfolio-version-2.jpg';
 import danceFinderImg from '../../public/images/dance-finder.jpg';
 import dateNightImg from '../../public/images/date-night.jpg';
 
@@ -23,17 +24,22 @@ class Projects extends Component {
         </div>
         <div className='pageMain'>
           <div className='row flexContainerRow'>
+            <Link to='/projects/tripfolio-version-2' className='projectTile'>
+              <img src={tripFolioTwoImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            </Link>
             <Link to='/projects/tripfolio-group' className='projectTile'>
               <img src={tripFolioImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
             </Link>
+          </div>
+          <div className='row flexContainerRow'>
             <Link to='/projects/dance-finder' className='projectTile'>
               <img src={danceFinderImg} alt='Tic Tac Toe board with blue background' />
             </Link>
-          </div>
-          <div className='row flexContainerRow'>
             <Link to='/projects/date-night' className='projectTile'>
               <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
             </Link>
+          </div>
+          <div className='row flexContainerRow'>
             <Link to='/projects/tic-tac-toe' className='projectTile'>
               <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' />
             </Link>

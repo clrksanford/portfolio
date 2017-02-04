@@ -41,24 +41,24 @@ class About extends Component {
         </div>
         <div className='flexContainerRow'>
           <div className='tile'>
-            <h5>Social Dance</h5>
             <img src={dancePic} alt='Social dance'/>
+            <h5>Social Dance</h5>
           </div>
           <div className='tile'>
-            <h5>Yoga</h5>
             <img src={yogaPic} alt='Yoga'/>
+            <h5>Yoga</h5>
           </div>
           <div className='tile'>
-            <h5>Piano</h5>
             <img src={pianoPic} alt='Piano'/>
+            <h5>Piano</h5>
           </div>
           <div className='tile'>
-            <h5>Travel</h5>
             <img src={travelPic} alt='Travel'/>
+            <h5>Travel</h5>
           </div>
           <div className='tile'>
-            <h5>Medieval Art History</h5>
             <img src={medievalPic} alt='Medieavl Art'/>
+            <h5>Medieval Art History</h5>
           </div>
         </div>
       </div>

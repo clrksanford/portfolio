@@ -1,42 +1,48 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router';
 
-// Components
-import DateNight from './DateNight';
-import DanceFinder from './DanceFinder';
-import LaVieEn from './LaVieEn';
-import AustinReferral from './AustinReferral';
-import Relaxr from './Relaxr';
-import Clemo from './Clemo';
+// Styles and images
+import ticTacToeImg from '../../public/images/tic-tac-toe.jpg';
+import tripFolioImg from '../../public/images/tripfolio.jpg';
+import tripFolioTwoImg from '../../public/images/tripfolio-version-2.jpg';
+import danceFinderImg from '../../public/images/dance-finder.jpg';
+import dateNightImg from '../../public/images/date-night.jpg';
 
 class Projects extends Component {
   render() {
     return(
       <div className='pageContent'>
         <div className='pageHeader'>
-          <h3 id='projectHeadline'>Projects</h3>
-          <h4 id='projectSubtitle'>Hover over the tiles for more information</h4>
+          <h3 className='activeProjectPage projectHeader'>
+            Projects
+          </h3> /{' '}
+          <h3 className='projectHeader'>
+            <Link to='/design-comp' className='toggleProjectPage'>
+              Design Comp Practice
+            </Link>
+          </h3>
         </div>
         <div className='pageMain'>
-          <div className='row'>
-            <DanceFinder />
+          <div className='row flexContainerRow'>
+            <Link to='/projects/tripfolio-version-2' className='projectTile'>
+              <img src={tripFolioTwoImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            </Link>
+            <Link to='/projects/tripfolio-group' className='projectTile'>
+              <img src={tripFolioImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            </Link>
           </div>
-          <div className='row'>
-            <DateNight />
+          <div className='row flexContainerRow'>
+            <Link to='/projects/dance-finder' className='projectTile'>
+              <img src={danceFinderImg} alt='Tic Tac Toe board with blue background' />
+            </Link>
+            <Link to='/projects/date-night' className='projectTile'>
+              <img src={dateNightImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />
+            </Link>
           </div>
-          <div className='row'>
-            <LaVieEn />
-          </div>
-          <div className='pageHeader'>
-            <h3>Design Comp Practice</h3>
-          </div>
-          <div className='row'>
-            <AustinReferral />
-          </div>
-          <div className='row'>
-            <Relaxr />
-          </div>
-          <div className='row'>
-            <Clemo />
+          <div className='row flexContainerRow'>
+            <Link to='/projects/tic-tac-toe' className='projectTile'>
+              <img src={ticTacToeImg} alt='Tic Tac Toe board with blue background' />
+            </Link>
           </div>
         </div>
       </div>

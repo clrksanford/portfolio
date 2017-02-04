@@ -5,12 +5,12 @@ export default (props) => {
     <a href={`https://clrksanford.github.io/${props.projectName}`}
       className='button projectLink'
       target='_blank'>
-      See the site
+      Site
     </a>
     <a href={`https://github.com/clrksanford/${props.projectName}`}
       className='button projectLink'
       target='_blank'>
-      See the code
+      GitHub
     </a>
   </div>
 }

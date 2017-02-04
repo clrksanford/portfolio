@@ -26,15 +26,15 @@ class TripFolioGroup extends Component {
         </div>
         <div className='pageMain projectDescription'>
           <p>
-          A web app designed to overhaul the travel planning experience by allowing users to save recommendations and share them with others.
+            Born from my own passion for traveling and planning, this travel-planner app allows users to see top recommendations from Yelp for a given destination and save the ones they want to their "Trip Builder." They can also search and retrieve recommendations from other users' trips.
           </p>
           <p>
           <span className='emphasis'>Tools:</span> {' '}
-          Built with Firebase and React.js.
+            Built with Firebase and React.js.
           </p>
           <p>
           <span className='emphasis'>Description:</span> {' '}
-          As an avid traveler, this is a site I have wanted to build for a long time, and I finally got the opportunity during our second group project at GA.
+            This app was built in a group of 3 over the course of 5 days. Since the original idea was mine, I wore the hat of project manager as well as developer. See the GitHub README below for further descriptions of the inspiration behind the app and the process of executing it.
           </p>
         </div> {/* --close pageMain-- */}
         <ProjectButtons projectName='tripfolio-group' />

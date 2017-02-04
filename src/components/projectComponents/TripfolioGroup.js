@@ -16,7 +16,7 @@ class TripFolioGroup extends Component {
           X
         </Link>
         <div className='pageHeader'>
-          <h3>Tripfolio</h3>
+          <h3>Tripfolio, Version 1.0</h3>
         </div>
         <div className='row'>
           <img src={tripFolioImg}

@@ -4,7 +4,7 @@ import headshot from '../../public/images/headshot.jpg';
 class Home extends Component {
   render() {
     return(
-      <div className="pageContent">
+      <div className="pageContent" id="homepage">
         <div className='pageHeader'>
           <h1>Portfolio of Clark Sanford</h1>
           <h2 id='homeSubtitle' className='fadeIn'>Full-Stack Web Developer Based in Austin, TX</h2>

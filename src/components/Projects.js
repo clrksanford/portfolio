@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 // Styles and images
 import ticTacToeImg from '../../public/images/tic-tac-toe.jpg';
 import tripFolioImg from '../../public/images/tripfolio.jpg';
-import tripFolioTwoImg from '../../public/images/tripfolio-version-2.jpg';
+import tripFolioTwoImg from '../../public/images/tripfolio-v-2.jpg';
 import danceFinderImg from '../../public/images/dance-finder.jpg';
 import dateNightImg from '../../public/images/date-night.jpg';
 

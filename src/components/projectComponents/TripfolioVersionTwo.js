@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 import ProjectButtons from '../ProjectButtons';
 
 // Images
-import tripFolioTwoImg from '../../../public/images/tripfolio-version-2.jpg';
+import tripFolioTwoImg from '../../../public/images/tripfolio-v-2.jpg';
 
 class TripFolioVersionTwo extends Component {
   render() {

@@ -144,7 +144,7 @@ header h2 {
 	position: relative;
 	padding: 5%;
 	box-sizing: border-box;
-	/*overflow: scroll;*/
+	overflow: scroll;
   margin: 100px auto;
   background-color: rgba(255,255,255,0.96);
 	text-align: center;

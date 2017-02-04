@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 import ProjectButtons from '../ProjectButtons';
 
 // Images
-import tripFolioImg from '../../../public/images/tripfolio.jpg';
+import tripFolioTwoImg from '../../../public/images/tripfolio-version-2.jpg';
 
 class TripFolioVersionTwo extends Component {
   render() {
@@ -16,17 +16,17 @@ class TripFolioVersionTwo extends Component {
           X
         </Link>
         <div className='pageHeader'>
-          <h3>Tripfolio</h3>
+          <h3>Tripfolio, Version 2.0</h3>
         </div>
         <div className='row'>
-          <img src={tripFolioImg}
+          <img src={tripFolioTwoImg}
             className='projectImage'
             alt='Sparkling blue-green alpine lake flanked by mountains. Logo in middle reads "Tripfolio." Splash page for the site.'
           />
         </div>
         <div className='pageMain projectDescription'>
           <p>
-            Building on the MVP completed for our first group project, I chose to focus my weeklong final project on refactoring the original code, adding Redux, and adding a new feature. The new feature was a component allowing users to create their own custom tiles 
+            Building on the MVP completed for our first group project, I chose to focus my weeklong final project on refactoring the original code, adding Redux, and adding a new feature. The new feature was a component allowing users to create their own custom tiles
           </p>
           <p>
           <span className='emphasis'>Tools:</span> {' '}

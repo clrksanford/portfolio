@@ -23,6 +23,18 @@ class Projects extends Component {
           </h3>
         </div>
         <div className='pageMain'>
+          <div className='row'>
+            <p>
+              Check my&nbsp;
+              <a id='projectBlogLink'
+                target='_blank'
+                href='https://medium.com/@clrksanford/general-assembly-group-projects-a-retrospective-dee6c996cb5a#.kpm38iadq'
+              >
+                blog
+              </a>
+                &nbsp;for more info on the inspiration and process behind these projects.
+            </p>
+          </div>
           <div className='row flexContainerRow'>
             <Link to='/projects/tripfolio-version-2' className='projectTile'>
               <img src={tripFolioTwoImg} alt='A mountain lake with text "TripFolio" the splash page for a website' />

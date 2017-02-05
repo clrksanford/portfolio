@@ -238,6 +238,16 @@ h2#homeSubtitle {
 	background-size: cover;
 }*/
 
+#projectBlogLink {
+	display: inline;
+	text-decoration: none;
+	color: rgb(100,160,223);
+}
+
+#projectBlogLink:hover {
+	color: rgb(80, 67, 86);
+}
+
 .projectImage {
 	width: 80%;
 	height: auto;
